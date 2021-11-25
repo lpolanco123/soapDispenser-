@@ -1,6 +1,7 @@
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.*;
+import java.swing.*;
 
 public class Soap_Dispenser {
     static Scanner keybaord = new Scanner(System.in);
@@ -16,8 +17,9 @@ public class Soap_Dispenser {
         setMyFrame(new MyFrame());
 
         Timer timer = new Timer();
-
+        
         TimerTask task = new TimerTask(){
+
 
             int counter = 20;
 
